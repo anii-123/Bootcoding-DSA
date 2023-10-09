@@ -13,6 +13,7 @@ public class Assignment_1 {
             arr[i] = s.nextInt();
         }
         System.out.println("Array element are : ");
+
         for (int i = 0; i < n; i++) {
             System.out.print( arr[i] + "  ");
         }
