@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
-public class Assignment_1 {
+public class A_print_elements {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter the number of element that you want to store ");
@@ -13,7 +13,6 @@ public class Assignment_1 {
             arr[i] = s.nextInt();
         }
         System.out.println("Array element are : ");
-
         for (int i = 0; i < n; i++) {
             System.out.print( arr[i] + "  ");
         }
